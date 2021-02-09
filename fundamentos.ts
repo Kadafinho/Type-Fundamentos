@@ -49,3 +49,16 @@ let meuBoolean: boolean = true;
 
     variavelBooleana = 1;
     variavelBooleana = "alicio"
+
+    // Enum
+    // poder ser alterado a posicao do enumerador
+    enum Estado {Desabilitado = -1, Habilitado}
+
+    let meuEstado: Estado = Estado.Habilitado;
+
+    alert(meuEstado);
+
+    //imprimir a string de enum
+    //pode ser usado com o proprio magic number (index), com a posicao do enum
+    let textoEnum: string = Estado[Estado.Desabilitado];
+    alert(textoEnum)
