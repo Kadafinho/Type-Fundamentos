@@ -44,3 +44,8 @@ let meuBoolean: boolean = true;
     campeaoBrasileiro3[0] = "teste";
 
     alert(campeaoBrasileiro3);
+
+    let variavelBooleana: boolean =  true;
+
+    variavelBooleana = 1;
+    variavelBooleana = "alicio"
